@@ -1,0 +1,316 @@
+[TITLE]
+Exported by WaterDesk 2.3.0
+Exported by WaterDesk 2.3.0
+
+[JUNCTIONS]
+;ID              	Elev        	Demand      	Pattern         
+ 2               	100         	6.24        	                	;
+ 3               	60          	10.92       	                	;
+ 4               	60          	6.24        	                	;
+ 5               	100         	6.24        	                	;
+ 6               	125         	3.9         	                	;
+ 7               	160         	3.12        	                	;
+ 8               	110         	7.02        	                	;
+ 9               	180         	10.92       	                	;
+ 10              	130         	3.9         	                	;
+ 11              	185         	27.13       	                	;
+ 12              	210         	12.48       	                	;
+ 13              	210         	1.56        	                	;
+ 14              	200         	1.56        	                	;
+ 15              	190         	1.56        	                	;
+ 16              	150         	15.6        	                	;
+ 17              	180         	15.6        	                	;
+ 18              	100         	15.6        	                	;
+ 19              	150         	3.9         	                	;
+ 20              	170         	14.82       	                	;
+ 21              	150         	12.48       	                	;
+ 22              	200         	7.8         	                	;
+ 23              	230         	6.24        	                	;
+ 24              	190         	8.58        	                	;
+ 25              	230         	4.68        	                	;
+ 27              	130         	6.24        	                	;
+ 28              	110         	0           	                	;
+ 29              	110         	5.46        	                	;
+ 30              	130         	2.34        	                	;
+ 31              	190         	13.26       	                	;
+ 32              	110         	13.26       	                	;
+ 33              	180         	1.17        	                	;
+ 34              	190         	1.17        	                	;
+ 35              	110         	0           	                	;
+ 36              	110         	0.78        	                	;
+
+[RESERVOIRS]
+;ID              	Head        	Pattern         
+ 26              	300.13      	                	;
+ 1               	300.34      	                	;
+
+[TANKS]
+;ID              	Elevation   	InitLevel   	MinLevel    	MaxLevel    	Diameter    	MinVol      	VolCurve        	Overflow
+
+[PIPES]
+;ID              	Node1           	Node2           	Length      	Diameter    	Roughness   	MinorLoss   	Status
+ 1               	1               	2               	2400        	12          	100         	0           	Open  	;10
+ 2               	2               	5               	800         	12          	100         	0           	Open  	;10
+ 3               	2               	3               	1300        	8           	100         	0           	Open  	;10
+ 4               	3               	4               	1200        	8           	100         	0           	Open  	;10
+ 5               	4               	5               	1000        	12          	100         	0           	Open  	;10
+ 6               	5               	6               	1200        	12          	100         	0           	Open  	;10
+ 7               	6               	7               	2700        	12          	100         	0           	Open  	;10
+ 8               	7               	8               	1200        	12          	140         	0           	Open  	;10
+ 9               	7               	9               	400         	12          	100         	0           	Open  	;10
+ 10              	8               	10              	1000        	8           	140         	0           	Open  	;10
+ 11              	9               	11              	700         	12          	100         	0           	Open  	;10
+ 12              	11              	12              	1900        	12          	100         	0           	Open  	;10
+ 13              	12              	13              	600         	12          	100         	0           	Open  	;10
+ 14              	13              	14              	400         	12          	100         	0           	Open  	;20
+ 15              	14              	15              	300         	12          	100         	0           	Open  	;20
+ 16              	13              	16              	1500        	8           	100         	0           	Open  	;20
+ 17              	15              	17              	1500        	8           	100         	0           	Open  	;20
+ 18              	16              	17              	600         	8           	100         	0           	Open  	;20
+ 19              	17              	18              	700         	12          	100         	0           	Open  	;20
+ 20              	18              	32              	350         	12          	100         	0           	Open  	;20
+ 21              	16              	19              	1400        	8           	100         	0           	Open  	;20
+ 22              	14              	20              	1100        	12          	100         	0           	Open  	;20
+ 23              	20              	21              	1300        	8           	100         	0           	Open  	;20
+ 24              	21              	22              	1300        	8           	100         	0           	Open  	;20
+ 25              	20              	22              	1300        	8           	100         	0           	Open  	;20
+ 26              	24              	23              	600         	12          	100         	0           	Open  	;20
+ 27              	15              	24              	250         	12          	100         	0           	Open  	;20
+ 28              	23              	25              	300         	12          	100         	0           	Open  	;20
+ 29              	25              	26              	200         	12          	100         	0           	Open  	;20
+ 30              	25              	31              	600         	12          	100         	0           	Open  	;20
+ 31              	31              	27              	400         	8           	100         	0           	Open  	;20
+ 32              	27              	29              	400         	8           	100         	0           	Open  	;20
+ 34              	29              	28              	700         	8           	100         	0           	Open  	;20
+ 35              	22              	33              	1000        	8           	100         	0           	Open  	;20
+ 36              	33              	34              	400         	8           	100         	0           	Open  	;20
+ 37              	32              	19              	500         	8           	100         	0           	Open  	;20
+ 38              	29              	35              	500         	8           	100         	0           	Open  	;20
+ 39              	35              	30              	1000        	8           	100         	0           	Open  	;20
+ 40              	28              	35              	700         	8           	100         	0           	Open  	;20
+ 41              	28              	36              	300         	8           	100         	0           	Open  	;20
+
+[PUMPS]
+;ID              	Node1           	Node2           	Parameters
+
+[VALVES]
+;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss   
+
+[TAGS]
+
+[DEMANDS]
+;Junction        	Demand      	Pattern         	Category
+
+[STATUS]
+;ID              	Status/Setting
+
+[PATTERNS]
+;ID              	Multipliers
+
+[CURVES]
+;ID              	X-Value     	Y-Value
+
+[CONTROLS]
+
+
+[RULES]
+
+
+[ENERGY]
+ Global Efficiency  	75
+ Global Price       	0
+ Demand Charge      	0
+
+[EMITTERS]
+;Junction        	Coefficient
+
+[QUALITY]
+;Node            	InitQual
+ 26              	1
+ 1               	1
+
+[SOURCES]
+;Node            	Type        	Quality     	Pattern
+
+[REACTIONS]
+;Type     	Pipe/Tank       	Coefficient
+ Bulk     	1               	-0.2
+ Wall     	1               	-0.03
+ Bulk     	2               	-0.2
+ Wall     	2               	-0.03
+ Bulk     	3               	-0.2
+ Wall     	3               	-0.03
+ Bulk     	4               	-0.2
+ Wall     	4               	-0.03
+ Bulk     	5               	-0.2
+ Wall     	5               	-0.03
+ Bulk     	6               	-0.2
+ Wall     	6               	-0.03
+ Bulk     	7               	-0.2
+ Wall     	7               	-0.03
+ Bulk     	8               	-0.2
+ Wall     	8               	-0.03
+ Bulk     	9               	-0.2
+ Wall     	9               	-0.03
+ Bulk     	10              	-0.2
+ Wall     	10              	-0.03
+ Bulk     	11              	-0.2
+ Wall     	11              	-0.03
+ Bulk     	12              	-0.2
+ Wall     	12              	-0.03
+ Bulk     	13              	-0.2
+ Wall     	13              	-0.03
+ Bulk     	14              	-0.2
+ Wall     	14              	-0.03
+ Bulk     	15              	-0.2
+ Wall     	15              	-0.06
+ Bulk     	16              	-0.2
+ Wall     	16              	-0.06
+ Bulk     	17              	-0.2
+ Wall     	17              	-0.06
+ Bulk     	18              	-0.2
+ Wall     	18              	-0.06
+ Bulk     	19              	-0.2
+ Wall     	19              	-0.06
+ Bulk     	20              	-0.2
+ Wall     	20              	-0.06
+ Bulk     	21              	-0.2
+ Wall     	21              	-0.06
+ Bulk     	22              	-0.2
+ Wall     	22              	-0.06
+ Bulk     	23              	-0.2
+ Wall     	23              	-0.06
+ Bulk     	24              	-0.2
+ Wall     	24              	-0.06
+ Bulk     	25              	-0.2
+ Wall     	25              	-0.06
+ Bulk     	26              	-0.2
+ Wall     	26              	-0.06
+ Bulk     	27              	-0.2
+ Wall     	27              	-0.06
+ Bulk     	28              	-0.2
+ Wall     	28              	-0.06
+ Bulk     	29              	-0.2
+ Wall     	29              	-0.06
+ Bulk     	30              	-0.2
+ Wall     	30              	-0.06
+ Bulk     	31              	-0.2
+ Wall     	31              	-0.06
+ Bulk     	32              	-0.2
+ Wall     	32              	-0.06
+ Bulk     	34              	-0.2
+ Wall     	34              	-0.06
+ Bulk     	35              	-0.2
+ Wall     	35              	-0.06
+ Bulk     	36              	-0.2
+ Wall     	36              	-0.06
+ Bulk     	37              	-0.2
+ Wall     	37              	-0.06
+ Bulk     	38              	-0.2
+ Wall     	38              	-0.06
+ Bulk     	39              	-0.2
+ Wall     	39              	-0.06
+ Bulk     	40              	-0.2
+ Wall     	40              	-0.06
+ Bulk     	41              	-0.2
+ Wall     	41              	-0.06
+
+
+[REACTIONS]
+ Order Bulk            	1
+ Order Tank            	1
+ Order Wall            	1
+ Global Bulk           	0
+ Global Wall           	0
+ Limiting Potential    	0
+ Roughness Correlation 	0
+
+[MIXING]
+;Tank            	Model
+
+[TIMES]
+ Duration           	55:00 
+ Hydraulic Timestep 	1:00 
+ Quality Timestep   	1:00 
+ Pattern Timestep   	1:00 
+ Pattern Start      	0:00 
+ Report Timestep    	1:00 
+ Report Start       	0:00 
+ Start ClockTime    	12 am
+ Statistic          	NONE
+
+[REPORT]
+ Status             	No
+ Summary            	No
+ Page               	0
+
+[OPTIONS]
+ Units              	GPM
+ Headloss           	H-W
+ Specific Gravity   	1
+ Viscosity          	1
+ Trials             	40
+ Accuracy           	0.001
+ CHECKFREQ          	2
+ MAXCHECK           	10
+ DAMPLIMIT          	0
+ Unbalanced         	Continue 10
+ Pattern            	1
+ Demand Multiplier  	1
+ Emitter Exponent   	0.5
+ Quality            	Chemical mg/L
+ Diffusivity        	1
+ Tolerance          	0
+
+[COORDINATES]
+;Node            	X-Coord           	Y-Coord
+2               	19.000            	20.000            
+3               	11.000            	21.000            
+4               	14.000            	28.000            
+5               	19.000            	25.000            
+6               	28.000            	23.000            
+7               	36.000            	39.000            
+8               	38.000            	30.000            
+9               	36.000            	42.000            
+10              	37.000            	23.000            
+11              	37.000            	49.000            
+12              	39.000            	60.000            
+13              	38.000            	64.000            
+14              	38.000            	66.000            
+15              	37.000            	69.000            
+16              	27.000            	65.000            
+17              	27.000            	69.000            
+18              	23.000            	68.000            
+19              	21.000            	59.000            
+20              	45.000            	68.000            
+21              	51.000            	62.000            
+22              	54.000            	69.000            
+23              	35.000            	74.000            
+24              	37.000            	71.000            
+25              	35.000            	76.000            
+27              	39.000            	87.000            
+28              	49.000            	85.000            
+29              	42.000            	86.000            
+30              	47.000            	80.000            
+31              	37.000            	80.000            
+32              	23.000            	64.000            
+33              	56.000            	73.000            
+34              	56.000            	77.000            
+35              	43.000            	81.000            
+36              	53.000            	87.000            
+26              	33.000            	76.000            
+1               	21.000            	4.000             
+
+[VERTICES]
+;Link            	X-Coord           	Y-Coord
+
+[LABELS]
+;X-Coord             Y-Coord             Label & Anchor Node
+
+[BACKDROP]
+  DIMENSIONS  	8.750             	-0.150            	58.250            	91.150            
+ UNITS          	None
+ FILE           	
+ OFFSET         	0.00            	0.00            
+
+[END]
