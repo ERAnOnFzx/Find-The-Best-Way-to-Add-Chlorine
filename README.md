@@ -1,10 +1,12 @@
 # Find-The-Best-Way-to-Add-Chlorine
-1.	使用代码时所有符号都要在英文模式下输入<br>
-   Type punctuation in English keyboard.
-2.	不要用python默认的idle运行代码，否则遗传算法会非常卡<br>
+1.	 使用代码时所有符号都要在英文模式下输入<br>
+    Type punctuation in English keyboard.
+2.	 不要用python默认的idle运行代码，否则遗传算法会非常卡<br>
     DO NOT run these code in IDLE, since the genetic algorithm in IDLE would make the code very slow.
-3.	修改inp文件：在第8行的G=epanet('./test2.inp')处修改inp文件地址，将单引号中的内容修改为需要输入的inp文件的路径就可以了<br>
-    replace the code in the 8th line """ G=epanet('./test2.inp') """ while changing new input files.
+3.	 修改inp文件：在第8行的G=epanet('./test2.inp')处修改inp文件地址，将单引号中的内容修改为需要输入的inp文件的路径就可以了<br>
+    Replace the code in the 8th line """ G=epanet('./test2.inp') """ while changing new input files.
+4.  运行中遇到报错可以试试用epanet.py文件替换Python环境中的epyt库的epanet.py文件，这可能会解决某些问题，之前发现了这个库中的一个bug但忘记提交给epyt作者了，不知道现在修复了没有<br>
+    Replace the file 'epanet.py' in the epyt library with the file 'epanet.py' in this repository may solve some errors.
 ## Run
 1.  除了修改地址以外，本程序的使用只需要修改代码最底下的work函数的参数就行<br>
     execute the function "work" can run the code "SearchChlorineQuality.py" easily.
